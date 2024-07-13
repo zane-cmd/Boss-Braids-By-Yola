@@ -1,0 +1,211 @@
+body,html{
+    font-family: 'Roboto',sans-serif;
+  }
+  
+  .carousel-item img {
+    height: 620px; 
+    object-fit: cover;
+  }
+  
+  .carousel-item {
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+  }
+  
+  .btn{
+    background-color: #3e362e;
+    border: 1px solid #3e362e;
+  }
+  
+  .about-us{
+    background-color: #e7decf;
+  }
+  
+  .about-us-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 0 60px 0;
+  }
+  
+  .about-us-img {
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+  }
+  
+  .about-us-img-cover {
+    background-image: url('imgs/BossBriadsAboutUs.jpg');
+    background-size: cover;
+    border-radius: 50%;
+  }
+  
+  .about-us-text {
+    padding: 80px;
+    width: 800px;
+  }
+  
+  .about-us-text h2 {
+    color: #3e362e;
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+  
+  .about-us-text p {
+    color: rgba(62, 54, 46, .7);
+    height: 38%;
+    font-weight: 500;
+    line-height: 1.6;
+  }
+  
+  .about-us-button {
+    margin: 10px 0 0 10px;
+    padding: 15px;
+    border-radius: 30px;
+    background-color:#3e362e;
+    border: 1px solid#3e362e;
+    color: #f5f0f0;
+    font-weight: 600;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .about-us-button:hover {
+    background-color: #342e27;
+    color: #fff;
+  }
+  
+  
+  
+  @media only screen and (min-width: 1005px) and (max-width: 1250px) {
+  
+    .about-us-img {
+        width: 450px;
+        height: 450px;
+  
+    }
+  
+    .about-us-text {
+        width: 550px;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) and (max-width: 1004px){
+    .about-us-img {
+        width: 450px;
+        height: 450px;
+    }
+  
+    .about-us-text {
+        width: 800px;
+    }
+  
+    .about-us-button-holder{
+        display: flex;
+        justify-content: center;
+        margin-top: 28px;
+    }
+  
+    .about-us-button {
+        padding:20px 25px 20px 25px ;
+    }
+  }
+  
+  @media only screen and (min-width:300px) and (max-width:599px) {
+    .about-us-img {
+        width: 300px;
+        height: 300px;
+        margin:0 7px 20px 7px;
+    }
+  
+    .about-us-text {
+        width: 100%;
+        padding: 10px 25px;
+    }
+  
+    .about-us-button-holder{
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+    }
+  }
+  
+  .browse-styles-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .browse-styles{
+    background-color: #342e27;
+    color:#ab8867 ;
+    padding: 50px 0;
+  }
+  
+  .styles-heading{
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+  
+  .style{
+    margin: 60px;
+  }
+  
+  .style-img{
+    height: 250px;
+    width: 250px;;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .style-1{
+   background-image: url('imgs/Styel1.jpg');
+   background-size: cover;
+  
+  }
+  
+  .style-2{
+    background-image: url('imgs/Style6jpg.jpg');
+    background-size: cover;
+  }
+  
+  .style-3{
+    background-image: url('imgs/Style4.jpg');
+    background-size: cover;
+  }
+  
+  .style-heading{
+    text-align: center;
+    color: #f5f0f0;
+  }
+  
+  .style-text{
+    text-align: center;
+    width: 250px;
+    height:100px;
+  }
+  
+  .btn-holder{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .style-button{
+    background-color: #917357;
+    color:  #f5f0f0;
+    border: 1px solid #ab8867;
+    padding: 12px 15px;
+    border-radius: 13px;
+    font-weight: 600;
+    transition: all 0.5s ease 0;
+  }
+  
+  .style-button:hover{
+    background-color:  rgb(124, 100, 76);
+  }
+  
+  @media only screen and (max-width:749px)  {
+    .style{
+      margin: 30px;
+    }
+  }
