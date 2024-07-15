@@ -1,5 +1,6 @@
 body,html{
     font-family: 'Roboto',sans-serif;
+    overflow-x: hidden;
   }
   
   .carousel-item img {
@@ -208,4 +209,108 @@ body,html{
     .style{
       margin: 30px;
     }
+  }
+
+  .review-section-holder{
+    background-color: #e7decf;
+    padding: 50px 0;
+  }
+
+  .review-heading{
+    text-align:center;
+    margin-bottom:50px;
+    font-weight: 700;
+  }
+
+  .review-section{
+    display:flex;
+    justify-content: center;
+  }
+
+  .slider-wrapper {
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 70px 55px;
+  }
+
+  .card{
+    height:auto;
+    user-select: none;
+    background-color:#ab8867;
+    border: 1px solid #ab8867 ;
+    padding:18px;
+    border-radius:20px;
+  }
+
+  .card, h5, .testimony{
+    color:#342e27
+
+  }
+
+
+  .person-info{
+    display:flex;
+    margin-bottom: 19px;
+  }
+
+  .person-img{
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    margin-top:10px;
+    margin-right:18px;
+  }
+
+  .person-1{
+    background-image:url('imgs/Person1.jpg');
+    background-size: cover;
+  }
+
+  .person-details{
+    padding-top:30px;
+  }
+
+  .person-name{
+      font-weight:600;
+  }
+
+  .person-place{
+    color:lightgray;
+    font-weight:500;
+  }
+
+  .testimony{
+    font-weight: 500;
+  }
+
+  .slider-wrapper .swiper-pagination-bullet {
+    background: #ab8867;
+    height: 13px;
+    width: 13px;
+    opacity: 0.5;
+  }
+
+  .swiper-slide-button{
+    color:#ab8867;
+    font-weight: 700;
+  }
+
+  .slider-wrapper .swiper-pagination-bullet-active {
+    opacity: 1;
+  }
+
+  @media (max-width: 768px) {
+    .slider-wrapper {
+      margin: 0 10px 40px;
+    }
+    .slider-wrapper .swiper-slide-button {
+      display: none;
+    }
+  }
+
+  @media only screen and(min-width:710px) and (max-width:765px){
+    .person-img{
+      height:70px;
+      width:70px;}
+
   }
