@@ -256,6 +256,7 @@ body,html{
   .person-img{
     height:100px;
     width:100px;
+    background-color: #342e27;
     border-radius:50%;
     margin-top:10px;
     margin-right:18px;
@@ -263,6 +264,21 @@ body,html{
 
   .person-1{
     background-image:url('imgs/Person1.jpg');
+    background-size: cover;
+  }
+
+  .person-2{
+    background-image:url('imgs/Person2.jpg');
+    background-size: cover;
+  }
+
+  .person-3{
+    background-image:url('imgs/Person3.jpg');
+    background-size: cover;
+  }
+
+  .person-4{
+    background-image:url('imgs/Person4.jpg');
     background-size: cover;
   }
 
