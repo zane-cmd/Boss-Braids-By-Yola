@@ -457,4 +457,12 @@ body,html{
           padding-bottom:20px;
       }
   }
-  
+
+
+    @media only screen and (max-width: 576px){
+      .single-box p {
+    
+        width:80%;
+       
+      }
+    }
