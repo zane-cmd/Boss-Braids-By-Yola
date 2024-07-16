@@ -36,7 +36,7 @@ body,html{
   }
   
   .about-us-img-cover {
-    background-image: url('imgs/BossBriadsAboutUs.jpg');
+    background-image: url('imgs/bossbraids/BossBriadsAboutUs.jpg');
     background-size: cover;
     border-radius: 50%;
   }
@@ -160,18 +160,18 @@ body,html{
   }
   
   .style-1{
-   background-image: url('imgs/Styel1.jpg');
+   background-image: url('imgs/styles/Styel1.jpg');
    background-size: cover;
   
   }
   
   .style-2{
-    background-image: url('imgs/Style6jpg.jpg');
+    background-image: url('imgs/styles/Style6jpg.jpg');
     background-size: cover;
   }
   
   .style-3{
-    background-image: url('imgs/Style4.jpg');
+    background-image: url('imgs/styles/Style4.jpg');
     background-size: cover;
   }
   
@@ -213,7 +213,7 @@ body,html{
 
   .review-section-holder{
     background-color: #e7decf;
-    padding: 50px 0;
+    padding: 70px 0;
   }
 
   .review-heading{
@@ -263,22 +263,22 @@ body,html{
   }
 
   .person-1{
-    background-image:url('imgs/Person1.jpg');
+    background-image:url('imgs/reviews/Person1.jpg');
     background-size: cover;
   }
 
   .person-2{
-    background-image:url('imgs/Person2.jpg');
+    background-image:url('imgs/reviews/Person2.jpg');
     background-size: cover;
   }
 
   .person-3{
-    background-image:url('imgs/Person3.jpg');
+    background-image:url('imgs/reviews/Person3.jpg');
     background-size: cover;
   }
 
   .person-4{
-    background-image:url('imgs/Person4.jpg');
+    background-image:url('imgs/reviews/Person4.jpg');
     background-size: cover;
   }
 
@@ -324,9 +324,137 @@ body,html{
     }
   }
 
-  @media only screen and(min-width:710px) and (max-width:765px){
+ /* @media only screen and (min-width:710px) and (max-width:765px){
     .person-img{
       height:70px;
       width:70px;}
 
+  }*/
+
+  .footer-section{
+    background-color:#ba945a;
+    padding: 90px 0 40px 0;
+    color:#3e362e;
   }
+
+  .single-content {
+    text-align: center;
+    padding: 115px 0;
+  }
+  
+  .boss-braids-heading{
+    margin-bottom: 10px;
+  }
+  
+  .single-box p {
+    
+    width:200px;
+    line-height: 1.9;
+      font-weight:600;
+      position:relative;
+  
+  }
+  .single-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+ 
+  }
+
+  .single-box h4{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0;
+ 
+  }
+
+  .single-box .card-area i {
+
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  .single-box ul {
+    list-style: none;
+    padding: 0;
+  }
+  .single-box ul li a {
+    text-decoration: none;
+    color: #342e27;
+    line-height: 2.5;
+    font-weight: 400;
+  }
+  .single-box h2 {
+   
+    font-size: 20px;
+    font-weight: 700;
+  }
+  #basic-addon2 {
+    background:#342e27;
+    
+  }
+  .socials i {
+    font-size: 18px;
+    margin-right: 15px;
+  }
+  @media (max-width: 767px) {
+    .single-box {
+      margin-bottom: 50px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .single-box {
+      margin-bottom: 50px;
+    }
+  }
+  
+  .footer-image{
+      height:110px;
+      width:150px;
+  }
+  
+  .card-area{
+      display:flex;
+  }
+
+  .working-hours-heading{
+    margin-bottom: 20px;
+  }
+  
+  
+  .footer-logo{
+      margin-right:10px;
+      height:25px;
+      width:25px;
+  }
+  
+  .contact-us{
+    margin-bottom: 25px;
+  }
+  
+  .email-details{
+      display: flex;
+      position:relative;
+     
+  }
+
+  .email-details p{
+    position: relative;
+    top:-5px;
+  }
+
+
+  
+  .email-details img{
+      margin-right:10px;
+  }
+  
+  .email-img{
+      height:20px;
+      width:20px;
+  }
+  
+  @media only screen and (min-width: 300px) and (max-width: 991px){
+      footer{
+          padding-bottom:20px;
+      }
+  }
+  
