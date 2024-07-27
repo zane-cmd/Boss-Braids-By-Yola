@@ -769,6 +769,7 @@ h5,
 
   #MainImg{
     height: 75vh;
+    background-position: center;
   }
 
   .gstyle{
