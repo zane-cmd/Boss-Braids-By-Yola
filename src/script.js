@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     var imgSrc = smallimg[index].src;
     mainImage.style.backgroundImage = `url(${imgSrc})`;
     mainImage.style.backgroundSize = 'cover'; // Adjust as needed
-    
+    mainImage.style.backgroundPosition = 'center'; // Adjust as needed
   }
   
   for (let i = 0; i < smallimg.length; i++) {
